@@ -14,9 +14,7 @@ async def test():
     u = User(name='Bart', email='John@google.com', passwd='1234567890', image='about:blank')
 
     await u.save()
-    # lst = await User.findAll()
-    # print(lst[0].get('id'))
-# loop.run_until_complete(test())
+loop.run_until_complete(test())
 
 
 class Chain:
