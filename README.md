@@ -15,4 +15,5 @@ This project implement WebServices Call (RESTful), Operate Database(MariaDB) CRU
 ## Running the Project
 
 ----
+cd app.py folder first
 python3 app.py &
