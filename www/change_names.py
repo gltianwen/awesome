@@ -29,5 +29,5 @@ if __name__ == '__main__':
         print('Usage: python3 change_names.py 所在路径 文件后缀名 文件名中需要去掉的部分 去掉后需要填充的内容')
         exit(0)
     print(sys.argv)
-    # path = get_path()
+    
     get_files_name(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
