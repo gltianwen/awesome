@@ -18,7 +18,6 @@ def get_files_name(path, suffix, old, new):
 
 def rename(name, old, new):
     new_name = name.replace(old, new)
-    # print(name, '===', name)
     os.rename(name, new_name)
 
 
