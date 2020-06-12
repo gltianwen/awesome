@@ -12,8 +12,8 @@ def get_files_name(path, suffix, old, new):
                 rename(name, old, new)
 
 
-def get_path():
-    return os.path.abspath('.')
+# def get_path():
+#     return os.path.abspath('.')
 
 
 def rename(name, old, new):
